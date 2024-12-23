@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent-container{
+   
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+   /*  justify-content: space-between; */
+    align-items: center;
+}
+
+.reg-header{
+   
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reg-body{
+  
+   
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+}
+.reg-body:first-child{
+   
+}
+.reg-footer{
+    
+   
+    width: 100%;
+    height: 10vh;
+}
